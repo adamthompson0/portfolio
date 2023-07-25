@@ -61,6 +61,7 @@ body {
     color:white;
 }
 
+
 .home{
     display: flex;
     align-items: center;
@@ -311,3 +312,57 @@ body {
         pointer-events: auto;
     }
 }
+
+/* about  */
+span{
+    color: #82caff;
+}
+
+#about {
+    background-color: #203354;
+    padding: 2rem;
+  }
+  
+  .about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .about-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Add responsive styles using media queries */
+  /* For example, adjust the layout for smaller screens */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 1rem;
+    }
+  
+    .about-container img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
