@@ -359,10 +359,98 @@ span{
     }
   }
   
+  /* contact */
+  #contact {
+    background-color: #203354;
+    padding: 2rem;
+  }
+  
+  .contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    text-align: left;
+  }
+  
+  #contact-form label {
+    font-weight: bold;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  #contact-form button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contact-form button:hover {
+    background-color: #444;
+  }
+  
+  .contact-info {
+    margin-top: 2rem;
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+  }
+  
+  /* Add responsive styles using media queries */
+  /* For example, adjust the layout for smaller screens */
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 1rem;
+    }
+  }
   
   
   
   
+  #contact {
+    background-color: #444;
+    padding: 2rem;
+  }
   
+  .contact-container {
+    /* ... (existing styles) ... */
+    size-adjust: a;
+  }
   
+  /* Styles for the contact information */
+  .contact-info {
+    margin-top: 2rem;
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
   
