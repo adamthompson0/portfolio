@@ -66,8 +66,8 @@ body {
     display: flex;
     align-items: center;
     height: 100vh;
- /* Todo: Add professional pic 
- background: url() no-repeat; /* /*  */
+ 
+ /* background: url('vhp_img1115.jpg') no-repeat;  */
     background-size: cover;
     background-position: center;
     padding: 0 10%;
@@ -270,7 +270,7 @@ body {
     width: 100%;
 }
 
-/* .home-imghover{
+ /* .home-imghover{
     position: absolute;
     top: 0;
     right: 30px;
@@ -298,7 +298,7 @@ body {
     animation: showRight 1s ease forwards;
     animation-delay: 3s;
     z-index: 100;
-}
+} */
 
 /*  KEYFRAMES ANIMATION  */
 @keyframes showRight{
@@ -348,7 +348,7 @@ span{
   
   /* Add responsive styles using media queries */
   /* For example, adjust the layout for smaller screens */
-  @media (max-width: 768px) {
+  @media (max-width: 990px) {
     .about-container {
       padding: 1rem;
     }
@@ -416,7 +416,7 @@ span{
   
   /* Add responsive styles using media queries */
   /* For example, adjust the layout for smaller screens */
-  @media (max-width: 768px) {
+  @media (max-width: 990px) {
     .contact-container {
       padding: 1rem;
     }
@@ -501,7 +501,11 @@ span{
   .portfolio-item a:hover {
     background-color: #0056b3;
   }
-
+  .port-title{
+    justify-content: center;
+  }
+  
+  /* services */
   #services {
     background-color: #203354;
     padding: 2rem;
