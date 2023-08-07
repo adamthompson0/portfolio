@@ -212,7 +212,7 @@ body {
 .home-sci{
     position: absolute;
     bottom: 40px;
-    width: 170px;
+    width: 92px;
     display: flex;
     justify-content:space-between;
 }
@@ -425,7 +425,7 @@ section{
   
   
   #contact {
-    background-color: #203354;
+    background-color: #0c2e67;
     padding: 1rem;
     min-height: 75vh;
   }
@@ -461,8 +461,7 @@ section{
   }
   
   .portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
     gap: 2rem;
     justify-items: center;
     padding-top: 4rem;
@@ -505,6 +504,12 @@ section{
   .portfolio-item a:hover {
     background-color: #0056b3;
   }
+
+  .portfolio-container h1{
+    justify-content: center;
+    display: flex;
+  }
+  
 
   #services {
     background-color: #203354;
@@ -612,3 +617,45 @@ section{
 
     }
   }
+
+
+
+/* Image slider styles */
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slider img {
+  width: 100%;
+}
+
+/* Navigation buttons styles */
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 0;
+}
+
+.next-button {
+  right: 0;
+}
