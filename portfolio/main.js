@@ -1,3 +1,8 @@
+const slider = document.querySelector('#slider');
+const prevButton = document.querySelector('#prev-button');
+const nextButton = document.querySelector('#next-button');
+
+
 function smoothScroll(event) {
     event.preventDefault();
     const targetId = event.currentTarget.getAttribute('href');
@@ -39,3 +44,32 @@ function smoothScroll(event) {
     t--;
     return -c / 2 * (t * (t - 2) - 1) + b;
   };
+
+
+
+  let slideIndex = 0;
+
+  // Function to show the current slide
+  function showSlide() {
+    slider.style.transform = `translateX(-${slideIndex * 100}%)`;
+  }
+  
+  // Function to navigate to the previous slide
+  function prevSlide() {
+    if (slideIndex > 0) {
+      slideIndex--;
+      showSlide();
+    }
+  }
+  
+  // Function to navigate to the next slide
+  function nextSlide() {
+    if (slideIndex < slider.children.length - 1) {
+      slideIndex++;
+      showSlide();
+    }
+  }
+  
+  // Add click event listeners to the navigation buttons
+  prevButton.addEventListener('click', prevSlide);
+  nextButton.addEventListener('click', nextSlide);
