@@ -352,6 +352,26 @@ section{
     line-height: 1.6;
   }
   
+  
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Create a container for the side-by-side lists */
+.list-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    padding: 2rem;
+}
+
+/* Style for each side-by-side list */
+.list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+}
+  
   /* Add responsive styles using media queries */
   /* For example, adjust the layout for smaller screens */
   @media (max-height: 100vh) {
