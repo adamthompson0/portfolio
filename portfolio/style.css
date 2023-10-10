@@ -486,11 +486,14 @@ ul {
     justify-items: center;
     padding-top: 4rem;
     min-height:65vh;
+    justify-content: center;
+    text-align: center;
   }
   
   .portfolio-item {
     max-width: 300px;
     text-align: center;
+    padding-top: 4rem;
   }
   
   .portfolio-item img {
@@ -678,4 +681,16 @@ ul {
 
 .next-button {
   right: 0;
+}
+
+/* change color of nav on scroll event */
+header.nav-fixed {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-active {
+  background-color:#fff;
+  box-shadow: 5px -1px 12px -5px grey;
 }
