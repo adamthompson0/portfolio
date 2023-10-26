@@ -19,7 +19,7 @@ I continuously seek opportunities to learn and grow. My aspiration is to become 
 In this portfolio you'll find a collection of diverse projects that showcase my ability to tackle challenges and create meaningful solutions. Here are some highlights: 
 - Pokedex: Pokedex that allows user to lookup a pokemon and lets user look at pokemon's abilities and type also user can add to their team's.
 - Skyview: A simple weather app lets user lookup location anywhere in the world and also can compare two different locations.
-- Third Project in works
+- Todo app: A simple todo app allows user to sign in, login, logout, and user can add and delete todos. Todos are also sorted based on priority.
 
 ## Skills 
 I have hands-on experience in Front-end, back-end coding and Styling CSS. I'm always enthusiastic about exploring new technologies and frameworks. Some of the key skills I possess include:
