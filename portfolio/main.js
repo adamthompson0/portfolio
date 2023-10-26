@@ -73,3 +73,5 @@ function smoothScroll(event) {
   // Add click event listeners to the navigation buttons
   prevButton.addEventListener('click', prevSlide);
   nextButton.addEventListener('click', nextSlide);
+
+  
