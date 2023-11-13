@@ -1,6 +1,7 @@
 const slider = document.querySelector('#slider');
 const prevButton = document.querySelector('#prev-button');
 const nextButton = document.querySelector('#next-button');
+const headerEl = document.querySelector('.header');
 
 
 function smoothScroll(event) {
@@ -70,8 +71,16 @@ function smoothScroll(event) {
     }
   }
   
-  // Add click event listeners to the navigation buttons
-  prevButton.addEventListener('click', prevSlide);
-  nextButton.addEventListener('click', nextSlide);
+// Add click event listeners to the navigation buttons
+prevButton.addEventListener('click', prevSlide);
+nextButton.addEventListener('click', nextSlide);
 
   
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50){
+    headerEl.classList.add('header-scrolled');
+  } else if (window.scrollY <= 50){
+    headerEl.classList.remove('header-scrolled');
+  }
+});
